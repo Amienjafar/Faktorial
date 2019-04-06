@@ -32,7 +32,7 @@ int a, b, c, d, e, f, n, m, l=2, z;
    for (a=1;a<=m;a++) {
      b=m;
    while (b>a) {
-     System.out.print(" ");
+     System.out.print("0");
       b--;
       }
       c=2;
@@ -40,14 +40,14 @@ int a, b, c, d, e, f, n, m, l=2, z;
       System.out.print("*"); }
    while (c++<l);
      l += 2;
-    System.out.println(" ");
+    System.out.println("0");
             }
       l=((m-1)*2);
       z=m-1;
       for (d=z;d>=1;d--) {
       e=m;
    while (e>d) {
-      System.out.print(" ");
+      System.out.print("0");
       e--;
       }
       f=2;
@@ -56,7 +56,7 @@ int a, b, c, d, e, f, n, m, l=2, z;
       }          
    while (f++<l);
       l -= 2;
-   System.out.println("");
+   System.out.println("0");
      } 
     }
     
